@@ -1,0 +1,32 @@
+<table class="ui fixed table">
+  <thead>
+    <tr>
+      <th>Make</th>
+      <th>Model</th>
+      <th>Colour</th>
+      <th>Value</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each carlist.vehicles}}
+      <tr>
+        <td>
+          {{make}}
+        </td>
+        <td>
+          {{model}}
+        </td>
+        <td>
+          {{colour}}
+        </td>
+        <td>
+          {{value}}
+        </td>
+        <td>
+          <a href="/carlist/{{../carlist.id}}/deletevehicle/{{id}}" class="ui tiny red button">Delete Vehicle</a>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

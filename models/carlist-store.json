@@ -1,0 +1,65 @@
+{
+  "carlistCollection": [
+    {
+      "id" : "01",
+      "title": "Cars",
+      "vehicles": [
+        {
+          "id" : "04",
+          "make": "Volkswagen",
+          "model": "Golf",
+          "colour": "Black",
+          "value": "€15,000"
+        },
+        {
+          "id" : "05",
+          "make": "Ford",
+          "model": "Focus",
+          "colour": "Blue",
+          "value": "18,000"
+        },
+        {
+          "id" : "06",
+          "make": "Audi",
+          "model": "TT",
+          "colour": "Red",
+          "value": "€75,000"
+        }
+      ]
+    },
+    {
+      "id" : "02",
+      "title": "Motorbikes",
+      "vehicles": [
+        {
+          "id" : "07",
+          "make": "Honda",
+          "model": "50",
+          "colour": "Yellow",
+          "value": "€5,000"
+        },
+        {
+          "id" : "08",
+          "make": "Harley Davidson",
+          "model": "Street 750",
+          "colour": "Black",
+          "value": "€30,000"
+        }
+      ]
+    },
+    {
+      "id" : "03",
+      "title": "Helicopters",
+      "vehicles": [
+        {
+          "id" : "10",
+          "make": "Robinson",
+          "model": "R44",
+          "colour": "Black",
+          "value": "€350,000"
+          
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{{#each carlist}}
+  <section class="ui segment">
+    <h2 class="ui header">
+      {{title}}
+    </h2>
+    
+    <a href="/carlist/{{id}}"> <i class="ui folder open icon"></i> </a>
+    <a href="/dashboard/deletecarlist/{{id}}"> <i class="ui trash icon"></i> </a>
+  </section>
+{{/each}}
